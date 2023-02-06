@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T08:13:49.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.16" etag="tWUtaXZ-BK8W6arDBpG4" type="github"><diagram name="第 1 页" id="QcjsDPf29D6IuBX9PW6E">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-06T08:51:47.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="fj5Gyzf5FtZVlR0TkF_f" version="20.8.16" type="github">
+  <diagram name="第 1 页" id="QcjsDPf29D6IuBX9PW6E">
+    <mxGraphModel dx="1143" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KqO1XoUJhTVogDRzArD_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-1" target="KqO1XoUJhTVogDRzArD_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-5" value="1.发送自己A公钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-4">
+          <mxGeometry x="-0.175" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-1" target="KqO1XoUJhTVogDRzArD_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-16" value="3.通过AB公钥加密消息内容发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-15">
+          <mxGeometry x="-0.3385" relative="1" as="geometry">
+            <mxPoint x="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-1" value="A端：&lt;br&gt;非对称加密&lt;br&gt;设备私钥+公钥&lt;br&gt;根据AB公钥加密" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="20" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-2" target="KqO1XoUJhTVogDRzArD_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-12" value="2.同意链接，发送B端公钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-11">
+          <mxGeometry x="0.2344" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-2" value="B端：&lt;br&gt;非对称加密&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;设备私钥+公钥.&lt;br&gt;根据AB公钥解密" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="20" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-3" target="KqO1XoUJhTVogDRzArD_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-7" value="1.转发给B端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-6">
+          <mxGeometry x="-0.2444" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-3" target="KqO1XoUJhTVogDRzArD_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-14" value="2.转发给A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-13">
+          <mxGeometry x="0.4373" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-3" target="KqO1XoUJhTVogDRzArD_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-18" value="3.转发到B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-17">
+          <mxGeometry x="-0.2837" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-3" value="服务端" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="55" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-21" value="传输消息结构：&lt;br style=&quot;font-size: 12px;&quot;&gt;{&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;at&quot;:&quot;123456,234567&quot;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 被At人的userID，用逗号分隔；at所有人时直接填写`@All`&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;image&quot;:&quot;&quot;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 图片连接&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;imgSize&quot;:{&quot;h&quot;:&quot;&quot;, &quot;w&quot;:&quot;&quot;},&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//图片size&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;size&quot;:1024,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //图片大小&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;imgCrypt&quot;:{&quot;aeskey&quot;:&quot;&quot;,&quot;iv&quot;:&quot;&quot;}, //图片加密信息&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;slience&quot;:true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 是否禁言，目前群组使用&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;block_info&quot;:true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //是否免打扰，目前群组使用&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;hide&quot;:&quot;&quot;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 消息隐藏，int（未来规划可用于区分隐藏级别，目前只有 1：全部隐藏，0：不隐藏）&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;richText&quot;:{},&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 富文本消息&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;crypt&quot;:{},&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 加密附带数据&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;font color=&quot;#ff4d17&quot;&gt; &quot;uMId&quot;:&quot;&quot;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 消息唯一码：机型_areaId_numId_timestamp 机型为PAD,PHONE,PC&lt;/font&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;cancelmsg&quot;:&quot;&quot;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 撤回，只为需要撤回的目标消息的uMId&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;syncRead&quot;:{},&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //同步自己其他端已读状态&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;syncSendMsgRead&quot;:{},&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 同步接收方的已读状态。&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;chatSwitch&quot;:true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 聊天功能开关，true为打开，false为关闭&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;pushMsg&quot;:&quot;推送展示内容&quot;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 控制推送展示内容，填写该字段，后台会解析，控制推送时展示的消息&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;sysCmdType&quot;:1,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//代表一键删除 后续可能会新增2， 3...&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;expire&quot;:3600,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //阅后即焚&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;packet&quot;:{},&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //消息分包信息&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;screenShot&quot;:true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //截图通知&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;statusExt&quot;:{},&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//消息扩展状态&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;notMsgPush&quot;:true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //是否推送 true 不推送 false 推送(已弃用，hide=1的消息都将不推送)&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;size&quot;:0,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//文件大小&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;imageName&quot;:&quot;&quot;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 图片文件名&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;msg_expire_sec&quot;:0,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //悄悄话时间设置，单位：秒（系统消息发出）,0为关闭&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;chat_setting&quot;:{&quot;areaid&quot;:50,&quot;numid&quot;:123},&amp;nbsp; //个人、群组配置发生变更时，变更发起人信息&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;notify&quot;: {&quot;type&quot;: 1, &quot;data&quot;: {}},&amp;nbsp; //通知信令,通知接收端根据type(信令类型),data(信令数据)进行操作&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;location&quot;:{},&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//位置信息&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;focus&quot;:{&quot;clientType&quot;:0, &quot;areaid&quot;:50, &quot;numid&quot;:123} //聚焦到会话, 内部包含聚焦人员以及用户端的信息&lt;br style=&quot;font-size: 12px;&quot;&gt;}" style="text;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="790" height="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
