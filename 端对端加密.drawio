@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T08:19:17.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="49afndfC692sW4247M4k" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T08:32:25.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="l4sifEOxMLPlUE53ZIjI" version="20.8.16" type="github">
   <diagram name="第 1 页" id="QcjsDPf29D6IuBX9PW6E">
     <mxGraphModel dx="1195" dy="627" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,6 +164,9 @@
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-73" value="&lt;span data-copy-origin=&quot;https://doc.daqunchat.com&quot; data-docs-delta=&quot;[[20,&amp;quot;{&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;Vws9\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;  msgExt: {&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;8DtW\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;    updateE2EECerBySelf: true,  // 只有24类型的消息，且消息接收者是自己才有这个字段&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;HbSw\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;  }&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;jUMK\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;}&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;mmoD\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;pre&gt;2.同步端重发消息体&lt;/pre&gt;&lt;pre&gt;{&lt;br&gt;  msgExt: {&lt;br&gt;    updateE2EECerBySelf: true,  // 只有24类型的消息，且消息接收者是自己才有这个字段&lt;br&gt;  }&lt;br&gt;}&lt;/pre&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="330" y="930" width="530" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-74" value="https://imweb.bianfeng.com/base_api/app/v1/app/encryption/data?pid=bfapi002×tamp=1675754577&amp;amp;_signature=7bd69ef81b0f856c85724abae9572c62&amp;amp;ticket=8ba598f8021709074e7d13d702a19827¶msValue=%7B%22areaid%22:50,%22numid%22:%22253030570%22%7D&amp;nbsp; @泮宏凡&lt;br&gt;获取证书短链。" style="text;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="64" width="173" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
