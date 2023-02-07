@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T09:36:53.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="s7TseY5vhw8rvCNpp9uQ" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T02:45:36.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="rEaLHr4KSP3fKlLRDdV6" version="20.8.16" type="github">
   <diagram name="第 1 页" id="QcjsDPf29D6IuBX9PW6E">
-    <mxGraphModel dx="1970" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KqO1XoUJhTVogDRzArD_-22" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="480" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-1" target="KqO1XoUJhTVogDRzArD_-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -15,21 +18,13 @@
         <mxCell id="KqO1XoUJhTVogDRzArD_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-1" target="KqO1XoUJhTVogDRzArD_-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KqO1XoUJhTVogDRzArD_-16" value="3.加密消息内容发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-15">
+        <mxCell id="KqO1XoUJhTVogDRzArD_-16" value="3.加密消息内容发送，其中有A的公钥信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-15">
           <mxGeometry x="-0.3385" relative="1" as="geometry">
-            <mxPoint x="23" as="offset" />
+            <mxPoint x="33" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-1" value="A端：&lt;br&gt;非对称加密&lt;br&gt;设备私钥+公钥&lt;br&gt;根据B公钥+A私钥加密" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="20" width="140" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="KqO1XoUJhTVogDRzArD_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-2" target="KqO1XoUJhTVogDRzArD_-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KqO1XoUJhTVogDRzArD_-12" value="2.同意链接，发送B端公钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-11">
-          <mxGeometry x="0.2344" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-2" value="B端：&lt;br&gt;非对称加密&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;设备私钥+公钥.&lt;br&gt;根据A公钥+B私钥解密" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="20" width="140" height="200" as="geometry" />
@@ -45,9 +40,9 @@
         <mxCell id="KqO1XoUJhTVogDRzArD_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-3" target="KqO1XoUJhTVogDRzArD_-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KqO1XoUJhTVogDRzArD_-14" value="2.转发给A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-13">
+        <mxCell id="KqO1XoUJhTVogDRzArD_-14" value="2.通过服务端获取B的公钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-13">
           <mxGeometry x="0.4373" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="51" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-3" target="KqO1XoUJhTVogDRzArD_-2">
@@ -64,26 +59,23 @@
         <mxCell id="KqO1XoUJhTVogDRzArD_-21" value="传输消息结构：&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;fromAreaid&quot;:&quot;&quot;, //来源areaId&amp;nbsp; 暂不用字段50&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;fromGroupid&quot;:&quot;&quot;, //来源groupId&amp;nbsp; 群组&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;fromNumid&quot;:&quot;&quot;, //来源numId&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;人员&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;insertTime&quot;:&quot;&quot;, //插入时间&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;cursor&quot;:&quot;&quot;, //游标&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;type&quot;:&quot;&quot;,&amp;nbsp; //消息种类枚举&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;msg&quot;:&quot;&quot;,&amp;nbsp; //消息&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;msgExt&quot;:{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;richText&quot;:{ // 具体展示数据&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;type&quot;:&quot;0&quot;,&amp;nbsp; // 消息展示类型，0-纯文本消息，1-链接消息，2-按钮卡片消息，3-列表消息&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;content&quot;:{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;title&quot;:&quot;我是标题&quot;, // 标题，也会用于消息列表中内容展示，若不写则消息列表中内容取用`msg`字段&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;info&quot;:&quot;我是内容&quot;, //文本内容，不写默认取最外层msg字段&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; }, //消息扩展&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="10" y="230" width="790" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="KqO1XoUJhTVogDRzArD_-22" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="110" width="480" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="KqO1XoUJhTVogDRzArD_-23" value="建立链接过程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#FF4D17;" vertex="1" parent="1">
-          <mxGeometry x="350" y="180" width="100" height="30" as="geometry" />
+        <mxCell id="KqO1XoUJhTVogDRzArD_-23" value="问题出现在服务端获取的B的公钥不准确，存在假的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#FF4D17;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-25" value="离线模式下，消息在队列中存储，未消费。处于加密状态，当设备改变，自己公私钥改变，无法解密" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="235" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-26" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="540" width="910" height="370" as="geometry" />
+          <mxGeometry y="540" width="1260" height="370" as="geometry" />
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-27" value="A1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="585" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="585" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-28" value="A2&lt;br&gt;离线失败" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="685" width="120" height="60" as="geometry" />
+          <mxGeometry y="685" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-29" value="A3" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-30" value="B1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="555" width="120" height="60" as="geometry" />
@@ -91,9 +83,9 @@
         <mxCell id="KqO1XoUJhTVogDRzArD_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF4D17;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-31" target="KqO1XoUJhTVogDRzArD_-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KqO1XoUJhTVogDRzArD_-37" value="重新建立加密过程，重发，返回失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF4D17;" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-35">
+        <mxCell id="KqO1XoUJhTVogDRzArD_-37" value="重新建立加密过程，重发并且带上自己最新的B2公钥，返回离线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF4D17;" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-35">
           <mxGeometry x="0.3137" y="2" relative="1" as="geometry">
-            <mxPoint x="22" y="-2" as="offset" />
+            <mxPoint x="58" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF4D17;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-31" target="KqO1XoUJhTVogDRzArD_-27">
@@ -129,8 +121,10 @@
         <mxCell id="KqO1XoUJhTVogDRzArD_-32" value="B3" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="630" y="840" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KqO1XoUJhTVogDRzArD_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF4D17;" edge="1" parent="1" source="KqO1XoUJhTVogDRzArD_-33" target="KqO1XoUJhTVogDRzArD_-28">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KqO1XoUJhTVogDRzArD_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF4D17;" edge="1" parent="1" target="KqO1XoUJhTVogDRzArD_-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="715" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-38" value="重新建立加密过程，失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF4D17;" vertex="1" connectable="0" parent="KqO1XoUJhTVogDRzArD_-36">
           <mxGeometry x="0.2051" y="-2" relative="1" as="geometry">
@@ -154,7 +148,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KqO1XoUJhTVogDRzArD_-33" value="服务端" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="675" width="120" height="80" as="geometry" />
+          <mxGeometry x="270" y="675" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-62" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;fontColor=#FF4D17;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="670" width="480" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-63" value="获取发送端的公钥+B2公钥解析重发的加密消息，&lt;br&gt;再次解密失败（再换手机，A2私钥错误），新手机循环" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#FF4D17;" vertex="1" parent="1">
+          <mxGeometry x="910" y="695" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KqO1XoUJhTVogDRzArD_-65" value="建立链接之后，换设备发出的消息是怎么样的？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#FF4D17;" vertex="1" parent="1">
+          <mxGeometry x="830" y="115" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
