@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T01:55:35.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.8.20" etag="dqytDOialwl91e0SshYW" type="github"><diagram name="第 1 页" id="8ZPXs8R_RqCTlA4J9vmN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-15T02:20:12.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="c1H6---7iToKq4-vHbPY" version="20.8.20" type="github">
+  <diagram name="第 1 页" id="8ZPXs8R_RqCTlA4J9vmN">
+    <mxGraphModel dx="1674" dy="774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="93" width="352" height="667" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-2" value="解密失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="187" width="207" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-4" value="收到其他端广播重发信令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="394" width="210" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-5" value="接收其他端重发后的消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158" y="593" width="213" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-19" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="180" width="254" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-20" value="来自同步端消息解密失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="472" y="154" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-21" value="来自非自己端消息解密失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="466" y="280" width="162" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-22" value="向同步端广播重发信令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="628" y="166" width="138" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-23" value="向其他5端广播广播重发信令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="266" width="169" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="379.5" width="254" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-25" value="umid内容判断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="383" y="402" width="92" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-26" value="消息解密失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="501" y="359" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-27" value="不进行处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="631" y="359" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-28" value="umid消息内容解密成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="488" y="479.5" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-29" value="重发一条相应消息内容的消息，给对应端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="636" y="465" width="234" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="371" y="585.5" width="254" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-31" value="umid内容判断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="386" y="608" width="92" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-32" value="消息已经解密成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="506" y="559" width="114" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-33" value="不进行处理，且不计数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="636" y="565" width="138" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-34" value="消息解密失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="513" y="685.5" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uq8i5xLdz4IewAAHZr6-35" value="更新消息内容，不计数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640.5" y="674" width="138" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
